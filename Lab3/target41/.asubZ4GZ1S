@@ -1,0 +1,11 @@
+student     = minghaoc
+target_id   = 41
+target_type = c
+level       = 0
+-->8--
+FAIL: Ouch!: You caused a segmentation fault!
+Better luck next time.
+-->8--
+41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+-->8--
+Previous 

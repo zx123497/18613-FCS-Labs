@@ -252,15 +252,10 @@ long hexAllLetters(long x) {
     long chk3 = chk2 | (chk2 << 16);
     long chk4 = chk3 | (chk3 << 32);
 
-    long is1Lead = !~((x & chk4) ^ ~chk4);
-    long chkM1 = 0xBB;
-    long chkM2 = chkM1 | (chkM1 << 8);
-    long chkM3 = chkM2 | (chkM2 << 16);
-    long chkM4 = chkM3 | (chkM3 << 32);
+    long is1Lead = ((x & chk4) ^ ~chk4);
+    long middleNotZero = ((~chk4 | (x << 1)) | x << 2);
 
-    long first = (x | chkM4) >> 1;
-    long midNotAllZero = !~(x | first);
-    return is1Lead & midNotAllZero;
+    return !~(is1Lead & middleNotZero);
 }
 /*
  * TMax - return maximum two's complement long integer

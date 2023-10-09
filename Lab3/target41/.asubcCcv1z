@@ -1,0 +1,10 @@
+student     = minghaoc
+target_id   = 41
+target_type = c
+level       = 0
+-->8--
+FAIL: No exploit, read_and_process_line returned normally.
+-->8--
+31 32 33 32 31 33 
+-->8--
+Previous 

@@ -1,0 +1,14 @@
+student     = minghaoc
+target_id   = 41
+target_type = r
+level       = 0
+-->8--
+FAIL: No exploit, read_and_process_line returned normally.
+-->8--
+31 32 33 32 31 33 32 31 34 31 32 34 31 32 34 31 32 34 32 31 34 32 31 34 31 32 34 32 31 34 32 34 32 31 34 32 31 34 32 31 34 31 32 34 
+-->8--
+Previous Scores for 18x13-f23:attacklab
+
+| version | phase1 (10.0) | phase2 (25.0) | phase3 (25.0) | phase4 (35.0) | phase5 (5.0) | 
++---------+---------------+---------------+---------------+---------------+--------------+
+|      16 |          10.0 |          25.0 |          25.0 |           0.0 |          0.0 | 
